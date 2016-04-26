@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		440371351CC76F4100A2C4CB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 440371341CC76F4100A2C4CB /* AVFoundation.framework */; };
+		440371371CC770FC00A2C4CB /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 440371361CC770FC00A2C4CB /* ImageIO.framework */; };
+		44A0EC7E1CC0B66300738C84 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A0EC7D1CC0B66300738C84 /* main.m */; };
+		44A0EC811CC0B66300738C84 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A0EC801CC0B66300738C84 /* AppDelegate.m */; };
+		44A0EC841CC0B66300738C84 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A0EC831CC0B66300738C84 /* ViewController.m */; };
+		44A0EC871CC0B66300738C84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44A0EC851CC0B66300738C84 /* Main.storyboard */; };
+		44A0EC891CC0B66300738C84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44A0EC881CC0B66300738C84 /* Assets.xcassets */; };
+		44A0EC8C1CC0B66300738C84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44A0EC8A1CC0B66300738C84 /* LaunchScreen.storyboard */; };
+		44A0EC971CC0B66300738C84 /* KottetTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A0EC961CC0B66300738C84 /* KottetTests.m */; };
+		44A0ECA21CC0B66300738C84 /* KottetUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44A0ECA11CC0B66300738C84 /* KottetUITests.m */; };
+		ABE44F556D230310877CB7BF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A7725B3E61DA2793EA4ACC3 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44A0EC931CC0B66300738C84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44A0EC711CC0B66200738C84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44A0EC781CC0B66200738C84;
+			remoteInfo = Kottet;
+		};
+		44A0EC9E1CC0B66300738C84 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44A0EC711CC0B66200738C84 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44A0EC781CC0B66200738C84;
+			remoteInfo = Kottet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A7725B3E61DA2793EA4ACC3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D793C7758F594E3A79F3440 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		440371341CC76F4100A2C4CB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		440371361CC770FC00A2C4CB /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		44A0EC791CC0B66200738C84 /* Kottet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Kottet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		44A0EC7D1CC0B66300738C84 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		44A0EC7F1CC0B66300738C84 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		44A0EC801CC0B66300738C84 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		44A0EC821CC0B66300738C84 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		44A0EC831CC0B66300738C84 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		44A0EC861CC0B66300738C84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		44A0EC881CC0B66300738C84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44A0EC8B1CC0B66300738C84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		44A0EC8D1CC0B66300738C84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44A0EC921CC0B66300738C84 /* KottetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KottetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44A0EC961CC0B66300738C84 /* KottetTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KottetTests.m; sourceTree = "<group>"; };
+		44A0EC981CC0B66300738C84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		44A0EC9D1CC0B66300738C84 /* KottetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KottetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		44A0ECA11CC0B66300738C84 /* KottetUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KottetUITests.m; sourceTree = "<group>"; };
+		44A0ECA31CC0B66300738C84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B311917C81E00F0911F1DB0 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44A0EC761CC0B66200738C84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				440371371CC770FC00A2C4CB /* ImageIO.framework in Frameworks */,
+				440371351CC76F4100A2C4CB /* AVFoundation.framework in Frameworks */,
+				ABE44F556D230310877CB7BF /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44A0EC8F1CC0B66300738C84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44A0EC9A1CC0B66300738C84 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44A0EC701CC0B66200738C84 = {
+			isa = PBXGroup;
+			children = (
+				44A0EC7B1CC0B66300738C84 /* Kottet */,
+				44A0EC951CC0B66300738C84 /* KottetTests */,
+				44A0ECA01CC0B66300738C84 /* KottetUITests */,
+				44A0EC7A1CC0B66200738C84 /* Products */,
+				BE285238CCFBDE882224235F /* Pods */,
+				D1DD2FD7C561A9FE0E726548 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		44A0EC7A1CC0B66200738C84 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44A0EC791CC0B66200738C84 /* Kottet.app */,
+				44A0EC921CC0B66300738C84 /* KottetTests.xctest */,
+				44A0EC9D1CC0B66300738C84 /* KottetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44A0EC7B1CC0B66300738C84 /* Kottet */ = {
+			isa = PBXGroup;
+			children = (
+				44A0EC7F1CC0B66300738C84 /* AppDelegate.h */,
+				44A0EC801CC0B66300738C84 /* AppDelegate.m */,
+				44A0EC821CC0B66300738C84 /* ViewController.h */,
+				44A0EC831CC0B66300738C84 /* ViewController.m */,
+				44A0EC851CC0B66300738C84 /* Main.storyboard */,
+				44A0EC881CC0B66300738C84 /* Assets.xcassets */,
+				44A0EC8A1CC0B66300738C84 /* LaunchScreen.storyboard */,
+				44A0EC8D1CC0B66300738C84 /* Info.plist */,
+				44A0EC7C1CC0B66300738C84 /* Supporting Files */,
+			);
+			path = Kottet;
+			sourceTree = "<group>";
+		};
+		44A0EC7C1CC0B66300738C84 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				44A0EC7D1CC0B66300738C84 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		44A0EC951CC0B66300738C84 /* KottetTests */ = {
+			isa = PBXGroup;
+			children = (
+				44A0EC961CC0B66300738C84 /* KottetTests.m */,
+				44A0EC981CC0B66300738C84 /* Info.plist */,
+			);
+			path = KottetTests;
+			sourceTree = "<group>";
+		};
+		44A0ECA01CC0B66300738C84 /* KottetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				44A0ECA11CC0B66300738C84 /* KottetUITests.m */,
+				44A0ECA31CC0B66300738C84 /* Info.plist */,
+			);
+			path = KottetUITests;
+			sourceTree = "<group>";
+		};
+		BE285238CCFBDE882224235F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B311917C81E00F0911F1DB0 /* Pods.debug.xcconfig */,
+				3D793C7758F594E3A79F3440 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D1DD2FD7C561A9FE0E726548 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				440371361CC770FC00A2C4CB /* ImageIO.framework */,
+				440371341CC76F4100A2C4CB /* AVFoundation.framework */,
+				2A7725B3E61DA2793EA4ACC3 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44A0EC781CC0B66200738C84 /* Kottet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44A0ECA61CC0B66300738C84 /* Build configuration list for PBXNativeTarget "Kottet" */;
+			buildPhases = (
+				DBC470E371F97BCF9A7E2AFD /* Check Pods Manifest.lock */,
+				44A0EC751CC0B66200738C84 /* Sources */,
+				44A0EC761CC0B66200738C84 /* Frameworks */,
+				44A0EC771CC0B66200738C84 /* Resources */,
+				74B201ACEF43E4D5A1A54769 /* Embed Pods Frameworks */,
+				6828F50C3CC36AC1119230DE /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Kottet;
+			productName = Kottet;
+			productReference = 44A0EC791CC0B66200738C84 /* Kottet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44A0EC911CC0B66300738C84 /* KottetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44A0ECA91CC0B66300738C84 /* Build configuration list for PBXNativeTarget "KottetTests" */;
+			buildPhases = (
+				44A0EC8E1CC0B66300738C84 /* Sources */,
+				44A0EC8F1CC0B66300738C84 /* Frameworks */,
+				44A0EC901CC0B66300738C84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44A0EC941CC0B66300738C84 /* PBXTargetDependency */,
+			);
+			name = KottetTests;
+			productName = KottetTests;
+			productReference = 44A0EC921CC0B66300738C84 /* KottetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		44A0EC9C1CC0B66300738C84 /* KottetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44A0ECAC1CC0B66300738C84 /* Build configuration list for PBXNativeTarget "KottetUITests" */;
+			buildPhases = (
+				44A0EC991CC0B66300738C84 /* Sources */,
+				44A0EC9A1CC0B66300738C84 /* Frameworks */,
+				44A0EC9B1CC0B66300738C84 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44A0EC9F1CC0B66300738C84 /* PBXTargetDependency */,
+			);
+			name = KottetUITests;
+			productName = KottetUITests;
+			productReference = 44A0EC9D1CC0B66300738C84 /* KottetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44A0EC711CC0B66200738C84 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "App Development";
+				TargetAttributes = {
+					44A0EC781CC0B66200738C84 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					44A0EC911CC0B66300738C84 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 44A0EC781CC0B66200738C84;
+					};
+					44A0EC9C1CC0B66300738C84 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 44A0EC781CC0B66200738C84;
+					};
+				};
+			};
+			buildConfigurationList = 44A0EC741CC0B66200738C84 /* Build configuration list for PBXProject "Kottet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44A0EC701CC0B66200738C84;
+			productRefGroup = 44A0EC7A1CC0B66200738C84 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44A0EC781CC0B66200738C84 /* Kottet */,
+				44A0EC911CC0B66300738C84 /* KottetTests */,
+				44A0EC9C1CC0B66300738C84 /* KottetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44A0EC771CC0B66200738C84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44A0EC8C1CC0B66300738C84 /* LaunchScreen.storyboard in Resources */,
+				44A0EC891CC0B66300738C84 /* Assets.xcassets in Resources */,
+				44A0EC871CC0B66300738C84 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44A0EC901CC0B66300738C84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44A0EC9B1CC0B66300738C84 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6828F50C3CC36AC1119230DE /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		74B201ACEF43E4D5A1A54769 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBC470E371F97BCF9A7E2AFD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44A0EC751CC0B66200738C84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44A0EC841CC0B66300738C84 /* ViewController.m in Sources */,
+				44A0EC811CC0B66300738C84 /* AppDelegate.m in Sources */,
+				44A0EC7E1CC0B66300738C84 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44A0EC8E1CC0B66300738C84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44A0EC971CC0B66300738C84 /* KottetTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44A0EC991CC0B66300738C84 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44A0ECA21CC0B66300738C84 /* KottetUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44A0EC941CC0B66300738C84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44A0EC781CC0B66200738C84 /* Kottet */;
+			targetProxy = 44A0EC931CC0B66300738C84 /* PBXContainerItemProxy */;
+		};
+		44A0EC9F1CC0B66300738C84 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44A0EC781CC0B66200738C84 /* Kottet */;
+			targetProxy = 44A0EC9E1CC0B66300738C84 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		44A0EC851CC0B66300738C84 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44A0EC861CC0B66300738C84 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		44A0EC8A1CC0B66300738C84 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				44A0EC8B1CC0B66300738C84 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		44A0ECA41CC0B66300738C84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		44A0ECA51CC0B66300738C84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44A0ECA71CC0B66300738C84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B311917C81E00F0911F1DB0 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Kottet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = appdevelopment.Kottet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		44A0ECA81CC0B66300738C84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D793C7758F594E3A79F3440 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Kottet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = appdevelopment.Kottet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		44A0ECAA1CC0B66300738C84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KottetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = appdevelopment.KottetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kottet.app/Kottet";
+			};
+			name = Debug;
+		};
+		44A0ECAB1CC0B66300738C84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = KottetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = appdevelopment.KottetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Kottet.app/Kottet";
+			};
+			name = Release;
+		};
+		44A0ECAD1CC0B66300738C84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KottetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = appdevelopment.KottetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Kottet;
+			};
+			name = Debug;
+		};
+		44A0ECAE1CC0B66300738C84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = KottetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = appdevelopment.KottetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Kottet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44A0EC741CC0B66200738C84 /* Build configuration list for PBXProject "Kottet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44A0ECA41CC0B66300738C84 /* Debug */,
+				44A0ECA51CC0B66300738C84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44A0ECA61CC0B66300738C84 /* Build configuration list for PBXNativeTarget "Kottet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44A0ECA71CC0B66300738C84 /* Debug */,
+				44A0ECA81CC0B66300738C84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44A0ECA91CC0B66300738C84 /* Build configuration list for PBXNativeTarget "KottetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44A0ECAA1CC0B66300738C84 /* Debug */,
+				44A0ECAB1CC0B66300738C84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44A0ECAC1CC0B66300738C84 /* Build configuration list for PBXNativeTarget "KottetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44A0ECAD1CC0B66300738C84 /* Debug */,
+				44A0ECAE1CC0B66300738C84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44A0EC711CC0B66200738C84 /* Project object */;
+}
